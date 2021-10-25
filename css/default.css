@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Prata&display=swap');
+
+body {
+    background: #FCFCFC;
+}
+#mySidenav, #menu {
+    display: none;
+}
+#time-bank-logo {
+    width:220px;
+}
+#left-section {
+    background-color: #FCFCFC;
+}
+#header {
+    background-color: #FCFCFC;
+    margin-left:15%;
+}
+a {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1.4em;
+}
+#header-button {
+    text-decoration: none;
+    margin-left: 0.7em;
+}
+#account {
+    margin-left: 1em;
+    font-weight: bold;
+    color: silver;
+}
+input[type=text] {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  border: 0px solid black;
+  box-shadow: 2px 2px 2px 1px white;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+   cursor: pointer;
+   margin-top: 1em;
+   margin-left: 15em;
+}
+#find-logo {
+    width:4em;
+    margin-left:40em;
+}
+#pages{
+    margin-top: -3em;
+}
+#p1{
+     margin-left: 26%;
+}
+
+#home {
+   margin-left: 2em;
+}
+
+@media screen and (max-width: 520px) {
+input[type=text]  { 
+   visibility: hidden;
+    }
+    #settings, #message, #notifi, #profile {
+       width:-20%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -3em;
+        margin-right: 2em;
+        width: 4.5em;
+    }
+    .menuu {
+        margin-top:2em;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -3em;
+        margin-right: 3em;
+        width: 4.5em;
+    }
+    .menuu {
+        margin-top:2em;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+   
+}
+
+@media screen and (max-width: 560px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+    #settings, #message, #notifi, #profile {
+           margin-right: -3em;
+    }
+   
+}
+
+@media screen and (max-width: 660px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+    #settings, #message, #notifi, #profile {
+           margin-right: 1em;
+    }
+   
+}
+
+@media screen and (max-width: 790px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+    #settings, #message, #notifi, #profile {
+          margin-right: 2em;
+    }
+   
+}
+@media screen and (max-width: 870px) {
+    #header {
+         margin-top: 1em;
+    }
+    #type { 
+         display: none;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -3em;
+        width: 4em;
+    }
+}
+
+@media screen and (max-width: 970px) {
+input[type=text]  { 
+    margin-left: auto;
+    height: 2.3em;
+    width:4%;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -3em;
+        width:1.7em;
+    }
+    #menu {
+        margin-top: 3.5em;
+    }
+}
+
+@media screen and (max-width: 920px) {
+input[type=text]  { 
+    margin-left: auto;
+    height: 2.3em;
+    width:5%;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: auto;
+    }
+    #menu {
+        margin-top: 3.5em;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+#type  { 
+    margin-left: auto;
+    margin-left: 10em;
+    width:15%;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -3em;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+#type  { 
+    margin-left: auto;
+    margin-left: 10em;
+    width:15%;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -2em;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+#type  { 
+    margin-left: auto;
+    margin-left: 13em;
+    width:15%;
+    }
+    #settings, #message, #notifi, #profile {
+        margin-left: -2em;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+#type {  
+    width:25%;
+    margin-left: auto;
+    margin-left: 13em;
+    }
+     #home {
+        margin-left: auto;
+        width:90%;
+    }
+    #left-section {
+        display:none;
+    }
+    #pages, #header-button, #account {
+        display:none;
+    }
+    #account-pages {
+        margin-left: 1.2em;
+        color: grey;
+    }
+    #mySidenav{
+        display: block;
+    }
+    #menu {
+        display: block;
+        font-size:33px;
+        cursor:pointer; 
+        color: black;
+        margin-top: -1.5em;
+    }
+    #menu:hover {
+        color:deeppink;
+    }
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 0;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: ghostwhite;
+        opacity: 0.8;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .sidenav a {
+        padding: 28px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 28px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        font-weight: bold;
+    }
+    .sidenav a:hover {
+        color: deeppink;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        font-size: 36px;
+        margin-left: 0px;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 20px;}
+
+}
+
+@media screen and (max-width: 1420px) {
+    #type {  
+        width:30%;
+    }
+     #home {
+        margin-left: auto;
+        width:90%;
+    }
+     #left-section {
+        display:none;
+    }
+    #pages, #header-button, #account {
+        display:none;
+    }
+    #account-pages {
+        margin-left: 1.2em;
+        color: grey;
+    }
+    #mySidenav{
+        display: block;
+    }
+    #menu {
+        display: block;
+        font-size:33px;
+        cursor:pointer; 
+        color: black;
+        margin-top: -1.5em;
+    }
+    #menu:hover {
+        color:deeppink;
+    }
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 0;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: ghostwhite;
+        opacity: 0.8;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .sidenav a {
+        padding: 28px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 28px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        font-weight: bold;
+    }
+    .sidenav a:hover {
+        color: deeppink;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        font-size: 36px;
+        margin-left: 0px;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 20px;}
+}
+
+
+@media screen and (max-width: 1620px) {
+input[type=text] {  
+    width:35%;
+    }
+     #home {
+        margin-left: auto;
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 1720px) {
+    #home {
+        margin-left: auto;
+        width:90%;
+    }
+}

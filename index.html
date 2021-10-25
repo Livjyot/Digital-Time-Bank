@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Time Bank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="icon" href="assets/logo.png">
+        <script>
+           function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </head>
+<body>
+
+<!-- Sidebar -->
+<div id="left-section" class="w3-sidebar w3-bar-block" style="width:15%; border-right: 0.2px solid gainsboro;">
+    <center>
+         <img src="assets/logo.png" id="time-bank-logo">
+    </center><hr>
+  <a href="#" id="dashboard-button" class="w3-bar-item w3-button">Dashboard</a>
+  <a href="#" class="w3-bar-item w3-button">Your Projects</a>
+  <a href="#" class="w3-bar-item w3-button">Recent Clients</a>
+  <a href="#" class="w3-bar-item w3-button">Text Messages</a>
+  <a href="#" class="w3-bar-item w3-button">Transactions</a>
+  <a href="#" class="w3-bar-item w3-button">Settings</a><hr>
+     <p id="account">ACCOUNT PAGES</p>
+  <a href="#" class="w3-bar-item w3-button">User Profile</a>
+  <a href="#" class="w3-bar-item w3-button">Sign In</a>
+  <a href="#" class="w3-bar-item w3-button">Sign Up</a>
+</div>
+
+<!-- Page Content -->
+<div id="header">
+    <div class="w3-container">
+        <input type="text" placeholder="Type here.." id="type">
+         <img src="assets/settings.png" id="settings" style="margin-left: 4em;">
+         <img src="assets/message.png" id="message" style="margin-left: 2em;">
+         <img src="assets/notifi.png" id="notifi"  style="margin-left: 2em;margin-top: -0.3em">
+         <img src="assets/profile.png" id="profile"  style="margin-left: 2em;margin-top: -0.3em">
+    </div>
+   
+<div class="w3-container" style="margin-left: auto;">
+        <p id="pages" style="margin-top: -3.5em; margin-left: 1em;">Pages / Dashboard</p>
+        <a href="#dashboard-button" id="header-button">Dashboard</a>
+     <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#" id="dashboard-button">Dashboard</a>
+               <a href="#">Your Projects</a>
+                <a href="#">Recent Clients</a>
+                <a href="#">Text Messages</a>
+                <a href="#">Transactions</a>
+                <a href="#">Settings</a><hr>
+          <p id="account-pages">ACCOUNT PAGES</p>
+               <a href="#">User Profile</a>
+                <a href="#">Sign In</a>
+                <a href="#">Sign Up</a>
+    </div>
+    <span id="menu" class="menuu" onclick="openNav()">&#9776; </span><br>
+</div>
+    <hr>
+</div><br>
+    <div class="w3-container">
+        <img src="assets/1.png" id="home">
+    </div>
+</body>
+</html>
